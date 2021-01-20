@@ -18,5 +18,4 @@ if sym:
     all += symbols
 
 len = int(input("Enter the Length of the password you wanted: "))
-password = ''.join(random.sample(all, len))
-print(password)
+print(''.join(random.sample(all, len)))
